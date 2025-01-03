@@ -20,7 +20,7 @@ body {
 .navbar {
     padding: 0.8rem 1.5rem;
     background-color: #343a40;
-    border-bottom: 2px solid #dfd98c;
+    border-bottom: 2px solid #e0ec2c;
     transition: background-color 0.3s ease, padding 0.3s ease;
 }
 
@@ -40,7 +40,9 @@ body {
 }
 
 .logo-animation {
-    animation: logoSpin 15s linear infinite;
+    /* animation: logoSpin 15s linear infinite; */
+    width: 60px;
+    height: 90px;
 }
 
 @keyframes logoSpin {
@@ -61,7 +63,7 @@ body {
 }
 
 .navbar-nav .nav-link:hover {
-    color: #dfd98c !important;
+    color: #e9eb6e !important;
     transform: translateY(-2px);
     letter-spacing: 1px;
 }
@@ -74,9 +76,9 @@ body {
 }
 
 .navbar-nav .btn-outline-primary:hover {
-    background-color: #dfd98c;
+    background-color: #e9eb6e;
     color: #fff;
-    border-color: #dfd98c;
+    border-color: #e9eb6e;
 }
 
 
@@ -174,13 +176,13 @@ body {
 }
 
 .card-icon i {
-    color: #dfd98c;
+    color: #e9eb6e;
     margin-bottom: 10px;
     transition: color 0.3s ease-in-out;
 }
 
 .card-icon i:hover {
-    color: #dfd98c;
+    color: #e9eb6e;
 }
 
 .portfolio-card img {
@@ -231,7 +233,7 @@ body {
 }
 
 .promocao-titulo:hover {
-    color: #dfd98c;
+    color: #e9eb6e;
 }
 
 .promocao-card p {
@@ -239,7 +241,7 @@ body {
 }
 
 .promocao-card .btn-primary {
-    background-color: #dfd98c;
+    background-color: #e9eb6e;
     color: #ffffff;
     border: 2px solid transparent;
     border-radius: 50px;
@@ -260,7 +262,7 @@ body {
     left: -100%;
     width: 100%;
     height: 100%;
-    background-color: #dfd98c;
+    background-color: #e9eb6e;
     transition: all 0.3s ease;
     z-index: 0;
 }
@@ -272,7 +274,7 @@ body {
 .promocao-card .btn-primary:hover {
     color: #ffffff;
     background-color: transparent;
-    border-color: #dfd98c;
+    border-color: #e9eb6e;
 }
 
 .promocao-card .btn-primary:hover span {
@@ -409,7 +411,7 @@ body {
 }
 
 .social-icon:hover {
-    color: #dfd98c;
+    color: #e9eb6e;
     transform: rotate(15deg) scale(1.2);
 }
 
@@ -506,7 +508,7 @@ body {
 }
 
 .flip-card-back {
-    background-color: #dfd98c;
+    background-color: #e9eb6e;
     color: white;
     transform: rotateY(180deg);
     display: flex;
@@ -527,7 +529,7 @@ body {
 
 .btn-primary {
     background-color: #ffffff;
-    color: #dfd98c;
+    color: #757703;
     border: none;
     padding: 0.5rem 1rem;
     border-radius: 5px;
@@ -538,7 +540,7 @@ body {
 
 .btn-primary:hover {
     background-color: #f3f1d3;
-    color: #dfd98c;
+    color: #e9eb6e;
 }
 
 
